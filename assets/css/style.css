@@ -1,4 +1,15 @@
 
+img.bg {
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 90px;
+    left: 0;
+}
+
+
 h1{
     background-color: #4aaaa5;
     color: white;
@@ -9,7 +20,8 @@ h1{
     text-align: center;
     padding: 30px;
     float: left;
-    margin-left: 200px
+    margin-left: 200px;
+    z-index: 2;
 }
 
 #navbar{
@@ -29,9 +41,32 @@ h1{
 
 #aboutme{
     clear: both;
+    background-color: white;
     width: 960px;
     text-align: center;
     position: relative;
     top: 40px;
     left: 20%;
+}
+
+#me {
+    position:absolute;
+    top: 150px;
+    left: 15px
+}
+#text {
+    text-align: left;
+    height: 270px;
+    margin: 20px 20px 0px 320px;
+    padding: 125px 20px 0px 20px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 20px
+}
+
+#text2 {
+    text-align: left;
+    margin: 0px 20px 20px 20px;
+    padding: 0px 20px 20px 20px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 20px 
 }
