@@ -68,6 +68,10 @@ h1{
     text-decoration: none; 
 }
 
+.link:last-child {
+    border-right-width: 0px
+}
+
 .link:hover {
     color: green;
     font-size: 26px;
@@ -207,7 +211,7 @@ h1{
 #projectmenu {
     background-color: #ffffff;
     width: 700px;
-    height: 530px;
+    height: 850px;
     border-style: solid;
     border-width: 1px;
     border-color: lightgray;
@@ -231,8 +235,77 @@ h1{
     margin-left: 15px
 }
 
-#projectfiles {
-    margin: 20px 5px 5px 40px;
+.projectpic {
+    margin: 20px 5px 5px 5px;
     padding: 5px 5px 5px 5px;
+    height: 200px;
+    width: 200px;
+    position: absolute;
 }
 
+.projectname {background-color: #4aaaa5;
+    color: white;
+    font-size: 16px;
+    font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+    font-weight: bold;
+    width: 210px;
+    height: 30px;
+    text-align: center;
+    position: relative;
+    padding-top: 5px;
+}
+
+#hangmanpic {
+    background-image: url(../images/placeholder.jpg);
+    top: 50px;
+    left: 50px;
+}
+
+#hangman {
+    top: 185px;
+    left: 55px;
+}
+
+#rpgpic {
+    background-image: url(../images/placeholder.jpg);
+    top: 50px;
+    right: 50px;
+}
+
+#rpg {
+    top: 150px;
+    left: 435px;
+}
+
+#triviapic {
+    background-image: url(../images/placeholder.jpg);
+    top: 300px;
+    left: 50px;
+}
+
+#trivia {
+    top: 360px;
+    left: 55px;
+}
+
+#widgetpic {
+    background-image: url(../images/placeholder.jpg);
+    top: 300px;
+    right: 50px;
+}
+
+#widget {
+    top: 325px;
+    left: 435px;
+}
+
+#rpspic {
+    background-image: url(../images/placeholder.jpg);
+    top: 550px;
+    left: 50px;
+}
+
+#rps {
+    top: 535px;
+    left: 55px;
+}
