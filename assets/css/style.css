@@ -1,7 +1,7 @@
 /* this section of code will apply to all pages */
 
 body {
-    background-image: url(../images/old_map_@2X.png);
+    background-image: url(../images/wood_pattern_@2X.png);
 }
 
 #top {
@@ -201,3 +201,38 @@ h1{
     margin-left: 20px;
     color: gray;
 }
+
+/* This section is for the portfolio page  */
+
+#projectmenu {
+    background-color: #ffffff;
+    width: 700px;
+    height: 530px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    position: relative;
+    top: 30px;
+    left: 28%;
+}
+
+#portfolio {
+    text-align: left;
+    font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+    font-size: 26px;
+    color: #4aaaa5;
+    font-weight: bold;
+    padding-bottom: 5px;
+    border-style: solid;
+    border-bottom-width: 2px;
+    border-color: lightgrey;
+    width: 650px;
+    margin-top: 15px;
+    margin-left: 15px
+}
+
+#projectfiles {
+    margin: 20px 5px 5px 40px;
+    padding: 5px 5px 5px 5px;
+}
+
